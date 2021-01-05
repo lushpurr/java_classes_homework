@@ -14,4 +14,8 @@ public class Calculator {
     public int subtractTwoNumbers() {
         return this.num1 - this.num2;
     }
+
+    public int multiplyTwoNumbers() {
+        return this.num1 * this.num2;
+    }
 }

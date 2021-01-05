@@ -20,5 +20,11 @@ public class CalculatorTest {
         assertEquals(-2, calculator1.subtractTwoNumbers());
     }
 
+    @Test
+    public void canMultiplyTwoNumbers(){
+        assertEquals(24, calculator1.multiplyTwoNumbers());
+
+    }
+
 
 }

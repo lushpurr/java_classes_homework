@@ -26,5 +26,13 @@ public class CalculatorTest {
 
     }
 
+    @Test
+    public void canDivideTwoNumbers(){
+        Calculator calculator2;
+        calculator2 = new Calculator(5.42, 0.50);
+        assertEquals(4.92, calculator2.divideTwoNumbers());
+
+    }
+
 
 }

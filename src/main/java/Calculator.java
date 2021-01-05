@@ -18,4 +18,8 @@ public class Calculator {
     public int multiplyTwoNumbers() {
         return this.num1 * this.num2;
     }
+
+    public double divideTwoNumbers() {
+        return this.num1/this.num2;
+    }
 }

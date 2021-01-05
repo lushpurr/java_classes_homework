@@ -9,7 +9,12 @@ public class WaterBottle {
         return this.volume;
     }
 
-    public int drink(int volume) {
-        return volume - 10;
+    public int drink() {
+        return this.volume - 10;
+    }
+
+    public int Empty() {
+        return 0;
+
     }
 }

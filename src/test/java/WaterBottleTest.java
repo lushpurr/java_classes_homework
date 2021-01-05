@@ -16,9 +16,15 @@ public class WaterBottleTest {
 
     @Test
     public void canDrink(){
-        int volumeAfterDrink = waterBottle.drink(waterBottle.getVolume());
-        assertEquals(90, volumeAfterDrink);
+
+        assertEquals(90, waterBottle.drink());
     }
+
+//    @Test
+//    public void canEmpty(){
+//        int volumeAfterEmpty = waterBottle.Empty();
+//        assertEquals(0, volumeAfterEmpty);
+//    }
 
 
 

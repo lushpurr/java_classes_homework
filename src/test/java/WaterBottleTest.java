@@ -20,11 +20,11 @@ public class WaterBottleTest {
         assertEquals(90, waterBottle.drink());
     }
 
-//    @Test
-//    public void canEmpty(){
-//        int volumeAfterEmpty = waterBottle.Empty();
-//        assertEquals(0, volumeAfterEmpty);
-//    }
+    @Test
+    public void canEmpty(){
+
+        assertEquals(0, waterBottle.empty());
+    }
 
 
 

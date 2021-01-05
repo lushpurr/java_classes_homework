@@ -14,4 +14,12 @@ public class WaterBottleTest {
         assertEquals(100, waterBottle.getVolume());
     }
 
+    @Test
+    public void canDrink(){
+        int volumeAfterDrink = waterBottle.drink(waterBottle.getVolume());
+        assertEquals(90, volumeAfterDrink);
+    }
+
+
+
 }
